@@ -105,3 +105,25 @@
     text-transform: lowercase !important;
     font-size: 15px !important;
 }
+
+.btn-transparent{
+    border-color: #0cb4ce;
+    color: #0cb4ce;
+}
+
+.btn-transparent:hover,
+.btn-transparent.focus, .btn-transparent:focus,
+fieldset[disabled] .btn-transparent:focus,
+fieldset[disabled] .btn-transparent.active, fieldset[disabled] .btn-transparent.focus, fieldset[disabled] .btn-transparent:active,
+.btn-transparent:active:focus
+ {
+    background-color: #0cb4ce;
+    border-color: #0cb4ce;
+}
+.btn-transparent.btn-appear:hover {
+    color: #fff;
+}
+
+.btn-custom{
+    font-family: 'Open Sans';
+}
