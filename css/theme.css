@@ -1860,9 +1860,9 @@ a:hover .subheading {
 
 /*---------- BUTTONS ----------*/
 .btn {
-	font-family: 'lovelo', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 11px;
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 1;
 	letter-spacing: 1px;
@@ -2814,8 +2814,8 @@ ul {
 	color: #47494e;
 	text-transform: none;
 	font-size: 12px;
-	font-family: "lovelo", sans-serif;
-	font-weight: normal;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
 	letter-spacing: 1px;
 	transition: color 0.35s;
 	-webkit-transition: -webkit-color 0.35s;

@@ -123,7 +123,6 @@ fieldset[disabled] .btn-transparent.active, fieldset[disabled] .btn-transparent.
 .btn-transparent.btn-appear:hover {
     color: #fff;
 }
-
-.btn-custom{
-    font-family: 'Open Sans';
+.btn-transparent.btn-appear:active {
+    color: #fff;
 }
