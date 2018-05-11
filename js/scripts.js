@@ -387,7 +387,8 @@
     });
     
     // PortfolioGrid
-    $('#js-grid').cubeportfolio({
+
+    var jsGridOpt = {
         filters: '#js-filters',
         layoutMode: 'grid',
         sortToPreventGaps: true,
@@ -414,7 +415,13 @@
         caption: 'zoom',
         displayType: 'sequentially',
         displayTypeSpeed: 100
-    });
+    };
+
+    $('#js-grid-14').cubeportfolio(jsGridOpt);
+    $('#js-grid-15').cubeportfolio(jsGridOpt);
+    $('#js-grid-16').cubeportfolio(jsGridOpt);
+    $('#js-grid-17').cubeportfolio(jsGridOpt);
+    $('#js-grid-18').cubeportfolio(jsGridOpt);
     
     // Portfolio Metro 
     $('#js-grid-mosaic').cubeportfolio({
